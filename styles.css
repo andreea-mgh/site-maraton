@@ -48,6 +48,30 @@ nav a:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+details {
+    margin: 2em 0;
+}
+
+summary {
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom: var(--primary-color) 1px solid;
+}
+
+details[open] summary {
+    border-bottom: none;
+}
+
+td {
+    border-bottom: 1px solid var(--primary-color);
+}
+
+th {
+    background-color: var(--primary-color);
+    color: var(--header-text-color);
+    padding: 10px;
+}
+
 footer {
     background-color: var(--primary-color);
     color: var(--header-text-color);

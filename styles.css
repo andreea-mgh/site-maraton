@@ -29,6 +29,13 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Oswald", Arial, sans-serif;
 }
 
+h2 {
+    background-color: var(--secondary-color);
+    color: var(--header-text-color);
+    padding: 0.5em;
+    margin-top: 0;
+}
+
 nav {
     background-color: var(--secondary-color);
     overflow: hidden;
@@ -69,13 +76,19 @@ details[open] summary {
     border-bottom: none;
 }
 
+table {
+    width: 100%;
+    margin-bottom: 2em;
+    border-collapse: collapse;
+}
+
 td {
-    border-bottom: 1px solid var(--primary-color);
+    border-bottom: 1px solid var(--accent-color);
 }
 
 th {
     font-family: "Oswald", Arial, sans-serif;
-    background-color: var(--primary-color);
+    background-color: var(--accent-color);
     color: var(--header-text-color);
     padding: 10px;
 }
